@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    /* background: rgb(245, 245, 245); */
+    overflow-x: hidden;
+
+}
+ nav{
+     width: 100%;
+    /* position: absolute; */
+    background: white;
+    z-index: 2;
+ }
+
+.mystyle {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width:500px;
+  height: 200vh;
+  background-color:white;
+  color: black;
+  font-size: 25px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 0.6em;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.nav-link{
+    color: grey;
+    font-family:serif;
+
+}
+.navbar-nav{
+    margin-left: 180px;
+}
+
+.navbar-brand{
+    margin-left: 120px;
+}
+
+nav .btn{
+    position: absolute;
+    right: 130px;
+    color: white;
+    outline-style: hidden;
+    border-radius:10em;
+    background: linear-gradient(90deg,rgb(32, 238, 118), rgb(144, 195, 243));
+}
+.nav-link{
+    margin: 4px;
+}
+
+.nav-link:hover{
+    color: grey;
+    font-family:serif;
+    border-bottom:3px solid turquoise;
+}
+#container-fluid121{
+    display: none;
+}
+
+@media screen and (max-width:680px)
+{
+   html  body{
+        overflow-inline: hidden;
+    }
+    header{
+        width: 1200px;
+    }
+    .mystyle {
+        position: absolute;
+        top: 300px;
+        left: 50px; 
+        width:1100px; 
+        height: 100vh auto;
+        background-color:white;
+        color: black;
+        font-size: 25px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 0.6em;
+      }
+    .navbar-brand{
+        margin: 0;
+    }
+    .logo{
+        width: 400px;
+    }
+    .nav-link{
+        margin: 20px;
+        font-size: 80px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    nav{ 
+        height: 200px;
+    }
+    nav .btn{
+        position: absolute;
+       display: none;
+    }
+   
+    .top{
+        position: relative;
+        display: none;
+    }
+    .second-top{   
+       text-align: center;
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 200vh auto;
+        background: rgb(253, 253, 253);
+        width: 1200px;
+
+    }
+    
+      #imgMobile{
+        overflow-inline: hidden;
+        width: 100%;
+        height: 1000px;
+
+        
+    }
+     #imgMobile1{
+        overflow: hidden;
+       position: absolute;
+        top: -50px;
+        left: 120px;
+        width: 900px;   
+    }
+    
+    .second-top h1{
+       
+      font-size: 100px;
+      padding: 50px; 
+  }
+  p{
+       
+    font-size: 40px;
+    padding: 10px;
+    
+}
+    .second-top .btn{
+        font-size: 50px;
+        color: white;
+        outline-style: hidden;
+        border-radius:10em;
+        background: linear-gradient(90deg,rgb(32, 238, 118), rgb(144, 195, 243));
+    }
+    
+    .middle{
+        /* position: relative; */
+        text-align: center;
+        width: 1200px;      
+        height: 100vh auto;
+        background: rgb(226, 226, 226);
+    }
+    .middle h2, h5{
+       
+        font-size: 80px;
+        padding: 50px; 
+    }
+    .middle h5{
+       
+        font-size: 80px;
+        padding: 50px; 
+    }
+    .middle img{
+        width: 200px;
+    }
+    .middle .middle1 .row .col-sm {
+         
+      font-size: 90px;
+      padding: 10px;
+      
+  }
+  .second-middle{
+    width: 1200px;      
+    height: 100vh auto;
+    background: rgb(246, 246, 246);
+
+  }
+  .second-middle h1{
+      width: 100%;
+      text-align: center;
+      font-size: 80px;
+        padding: 20px; 
+       
+  }
+  .card{
+    border-radius: 1em;
+      padding: 30px;
+      margin: 30px;
+      
+  }
+ 
+    .card{
+       border-radius: 0.9em;
+       
+    }
+    .logo1{
+        width: 300px;
+    }
+    
+    .footer{
+        text-align: center;
+        width: 1200px;
+        height: 40vh auto;
+        background:rgb(23, 23, 37);
+       
+    }
+    .footer  .icons .iimg{
+        width: 60px;
+        margin:2px;
+        border-radius: 0.2em;
+    }
+    .footer p a{
+        color: white;
+    }
+    .footer p{
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .footer .btn{
+        font-size: 50px;
+        color: white;
+        outline-style: hidden;
+        border-radius:10em;
+        background: linear-gradient(90deg,rgb(32, 238, 118), rgb(144, 195, 243));
+    }
+    
+}
+    /*DESKTOP  */
+    
+    
+    
+    @media only screen and (min-width:980px)
+    {   
+
+.top{
+    width: 100%;
+    height: 68vh;
+}
+ #img0{
+    overflow: hidden;
+    position: absolute; 
+    top: -150px;
+    left: 600px;
+    width: 1000px;
+    height: 800px;
+}
+ #img01{
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+    left: 740px;
+    height: 800px;
+    
+}
+.second-top{
+    display: none;
+}
+.text{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 120px;
+    top: 200px;
+}
+.top .btn{
+    color: white;
+    outline-style: hidden;
+    border-radius:10em;
+    background: linear-gradient(90deg,rgb(32, 238, 118), rgb(144, 195, 243));
+}
+
+.middle{
+    width: 100%;
+    height: 90vh;
+    background: rgb(226, 226, 226);
+}
+.second-middle{
+    width: 100%;
+    height: 90vh;
+    background: rgb(246, 246, 246);
+} 
+.middle-text{
+    /* margin-top: 40px; */
+    position: relative;
+    left: 120px;
+    top: 100px;
+}
+.second-middle h1{
+    position: relative;
+    left: 90px;
+}
+.middle1   .col-sm{
+    top: 100px;
+    left: 120px;
+    padding-left: 40px;
+}
+
+
+.text1{
+    position: absolute;
+    width: 550px;
+    height: 600px;
+    left: 120px;
+    top: 700px;
+}
+.row{
+   width: 1120px; 
+}
+
+.img-fluid{
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+
+}
+.text2{
+   
+    width: 550px;
+    padding-top: 90px;
+    margin-left: 80px;
+}
+.card{
+   border-radius: 0.9em;
+}
+#img{
+    height: 165px;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    background:rgb(23, 23, 37);
+}
+.footer  .icons .iimg{
+    margin:2px;
+    border-radius: 0.2em;
+}
+.footer p a{
+    color: white;
+}
+.footer p{
+    font-size: 12px;
+    color: white;
+}
+.footer  .footer-btn{
+    position: absolute;
+    right:0px;
+
+}
+
+.footer .btn{
+    color: white;
+    outline-style: hidden;
+    border-radius:10em;
+    background: linear-gradient(90deg,rgb(32, 238, 118), rgb(144, 195, 243));
+}
+
+    }
+
+
+
+
