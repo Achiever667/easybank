@@ -104,7 +104,9 @@ nav .btn{
         position: absolute;
        display: none;
     }
-   
+   #togglerIcon{
+       border:1px solid #000000;
+   }
     .top{
         position: relative;
         display: none;
