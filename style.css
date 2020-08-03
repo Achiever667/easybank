@@ -3,13 +3,11 @@
     padding: 0;
 }
 html body{
-    /* background: rgb(245, 245, 245); */
     overflow-x: hidden;
 
 }
  nav{
      width: 100%;
-    /* position: absolute; */
     background: white;
     z-index: 2;
  }
@@ -75,7 +73,8 @@ nav .btn{
     .mystyle {
         position: absolute;
         top: 300px;
-        left: 50px; 
+        left: 40px; 
+        right: 0;
         width:1100px; 
         height: 100vh auto;
         background-color:white;
@@ -105,7 +104,9 @@ nav .btn{
         position: absolute;
        display: none;
     }
-   
+   #togglerIcon{
+       border:1px solid #000000;
+   }
     .top{
         position: relative;
         display: none;
@@ -156,7 +157,6 @@ nav .btn{
     }
     
     .middle{
-        /* position: relative; */
         text-align: center;
         width: 1200px;      
         height: 100vh auto;
@@ -175,17 +175,19 @@ nav .btn{
     .middle img{
         width: 200px;
     }
-    .middle .middle1 .row .col-sm {
-         
-      font-size: 90px;
-      padding: 10px;
-      
-  }
+ 
+  .middle1   .col-sm{
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+}
+.middle1 .row{
+    padding: 100px;
+}
   .second-middle{
     width: 1200px;      
     height: 100vh auto;
     background: rgb(246, 246, 246);
-
   }
   .second-middle h1{
       width: 100%;
@@ -194,10 +196,10 @@ nav .btn{
         padding: 20px; 
        
   }
-  .card{
+  .second-middle .row .col-sm .card{
     border-radius: 1em;
       padding: 30px;
-      margin: 30px;
+      margin: 80px;
       
   }
  
@@ -295,7 +297,6 @@ nav .btn{
     background: rgb(246, 246, 246);
 } 
 .middle-text{
-    /* margin-top: 40px; */
     position: relative;
     left: 120px;
     top: 100px;
@@ -305,9 +306,10 @@ nav .btn{
     left: 90px;
 }
 .middle1   .col-sm{
+    padding: 30px;
     top: 100px;
     left: 120px;
-    padding-left: 40px;
+    text-align: center;
 }
 
 
